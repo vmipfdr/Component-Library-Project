@@ -11,10 +11,22 @@ button:hover {
   background-color: #13161a;
 }
 
+.button-pale-default {
+  background-color: rgba(34, 38, 42, 0.2);
+  color: rgba(34, 38, 42);
+  border: rgba(34, 38, 42);
+}
+
 .button-primary {
   background-color: #33a0ff;
   color: white;
   border: #33a0ff;
+}
+
+.button-pale-primary {
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgba(51, 160, 255, 1);
+  border: rgba(51, 160, 255, 1);
 }
 
 .button-primary:hover {
@@ -28,6 +40,12 @@ button:hover {
   border: #ff4858;
 }
 
+.button-pale-danger {
+  background-color: rgba(255, 72, 88, 0.2);
+  color: rgba(255, 72, 88, 1);
+  border: rgba(255, 72, 88);
+}
+
 .button-danger:hover {
   cursor: pointer;
   background-color: #f53848;
@@ -39,6 +57,12 @@ button:hover {
   border: #ffc600;
 }
 
+.button-pale-warning {
+  background-color: rgba(255, 198, 0, 0.2);
+  color: rgba(255, 198, 0, 1);
+  border: rgba(255, 198, 0, 1);
+}
+
 .button-warning:hover {
   cursor: pointer;
   background-color: #ebb600;
@@ -48,6 +72,12 @@ button:hover {
   background-color: #0ad00a;
   color: white;
   border: #0ad00a;
+}
+
+.button-pale-success {
+  background-color: rgba(10, 208, 10, 0.2);
+  color: rgba(10, 208, 10, 1);
+  border: rgba(10, 208, 10);
 }
 
 .button-success:hover {
@@ -81,4 +111,16 @@ button:hover {
   background-color: white;
   color: #0ad00a;
   border: 1px solid #0ad00a;
+}
+
+.button-inverse-warning {
+  background-color: white;
+  color: #ffc600;
+  border: 1px solid #ffc600;
+}
+
+.button-inverse-default {
+  background-color: white;
+  color: #13161a;
+  border: 1px solid #13161a;
 }

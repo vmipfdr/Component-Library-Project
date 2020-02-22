@@ -35,4 +35,39 @@ storiesOf("Button", module)
   ))
   .add("Inverse Default", () => (
     <Button label="Default" type="inverse-default" />
+  ))
+  .add("Pale Primary", () => <Button label="Primary" type="pale-primary" />)
+  .add("Pale Danger", () => <Button label="Danger" type="pale-danger" />)
+  .add("Pale Success", () => <Button label="Success" type="pale-success" />)
+  .add("Pale Warning", () => <Button label="Warning" type="pale-warning" />)
+  .add("Pale Default", () => <Button label="Default" type="pale-default" />)
+  .add("Large Inverse Primary", () => (
+    <Button label="Primary" type="inverse-primary" large />
+  ))
+  .add("Large Inverse Danger", () => (
+    <Button label="Danger" type="inverse-danger" large />
+  ))
+  .add("Large Inverse Success", () => (
+    <Button label="Success" type="inverse-success" large />
+  ))
+  .add("Large Inverse Warning", () => (
+    <Button label="Warning" type="inverse-warning" large />
+  ))
+  .add("Large Inverse Default", () => (
+    <Button label="Default" type="inverse-default" large />
+  ))
+  .add("Large Pale Primary", () => (
+    <Button label="Primary" type="pale-primary" large />
+  ))
+  .add("Large Pale Danger", () => (
+    <Button label="Danger" type="pale-danger" large />
+  ))
+  .add("Large Pale Success", () => (
+    <Button label="Success" type="pale-success" large />
+  ))
+  .add("Large Pale Warning", () => (
+    <Button label="Warning" type="pale-warning" large />
+  ))
+  .add("Large Pale Default", () => (
+    <Button label="Default" type="pale-default" large />
   ));

@@ -14,7 +14,12 @@ const Button = props => {
     "inverse-danger",
     "inverse-success",
     "inverse-warning",
-    "inverse-default"
+    "inverse-default",
+    "pale-primary",
+    "pale-danger",
+    "pale-success",
+    "pale-warning",
+    "pale-default"
   ];
   if (types.includes(props.type)) {
     // these class lists must take back ticks
