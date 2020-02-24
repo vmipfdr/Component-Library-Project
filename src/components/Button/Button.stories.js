@@ -70,4 +70,10 @@ storiesOf("Button", module)
   ))
   .add("Large Pale Default", () => (
     <Button label="Default" type="pale-default" large />
-  ));
+  ))
+  .add("Add To Cart", () => <Button label="Add To Cart" type="pale-default" />)
+  .add("Add To Favorites", () => (
+    <Button label="Add To Favorites" type="pale-default" />
+  ))
+  .add("Cart", () => <Button type="pale-default" />)
+  .add("Favorite", () => <Button type="pale-default" />);

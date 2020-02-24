@@ -1,6 +1,6 @@
 import React from "react";
 import "./Select.css";
-import Arrow from "./arrow down.png";
+import Arrow from "./arrow down.svg";
 
 const Select = props => {
   let classList = "";
@@ -12,12 +12,16 @@ const Select = props => {
     classList += ` ${props.type}-select`;
   }
   return (
-    <div className={"select-complete" + classList}>
-      <div className={"select-label" + classList}>{props.label}</div>
-      <div>
-        <img src="./arrow down.png" />
-      </div>
-    </div>
+    <select className={"select-label" + classList}>
+      <option value="">{props.label}</option>
+      <option value="">{props.label}</option>
+      <option value="">{props.label}</option>
+    </select>
   );
 };
 export default Select;
+
+{
+  /* <div className={"select-label" + classList}>{props.label}</div>
+  <div className="arrow"></div> */
+}
