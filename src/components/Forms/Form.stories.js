@@ -3,6 +3,7 @@ import { storiesOf } from "@storybook/react";
 import Input from "./Form";
 import Select from "./Select";
 import Counter from "./Counter";
+import Voucher from "./Voucher";
 
 storiesOf("Form", module)
   .add("Small Email", () => <Input label="Email" size="small" />)
@@ -20,4 +21,6 @@ storiesOf("Form", module)
   .add("Large Shaded Select", () => (
     <Select label="Select" size="large" type="shaded" />
   ))
-  .add("Counter", () => <Counter />);
+  .add("Counter", () => <Counter />)
+  .add("Small Voucher", () => <Voucher label="Voucher Code" size="small" />)
+  .add("Medium Voucher", () => <Voucher label="Voucher Code" size="medium" />);
