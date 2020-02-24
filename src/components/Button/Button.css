@@ -16,6 +16,11 @@ button:hover {
   color: rgba(34, 38, 42);
   border: rgba(34, 38, 42);
 }
+.button-pale-default:hover {
+  background-color: rgba(34, 38, 42, 0.2);
+  color: rgba(34, 38, 42);
+  border: rgba(34, 38, 42);
+}
 
 .button-primary {
   background-color: #33a0ff;
@@ -24,6 +29,11 @@ button:hover {
 }
 
 .button-pale-primary {
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgba(51, 160, 255, 1);
+  border: rgba(51, 160, 255, 1);
+}
+.button-pale-primary:hover {
   background-color: rgba(51, 160, 255, 0.2);
   color: rgba(51, 160, 255, 1);
   border: rgba(51, 160, 255, 1);
@@ -45,6 +55,11 @@ button:hover {
   color: rgba(255, 72, 88, 1);
   border: rgba(255, 72, 88);
 }
+.button-pale-danger:hover {
+  background-color: rgba(255, 72, 88, 0.2);
+  color: rgba(255, 72, 88, 1);
+  border: rgba(255, 72, 88);
+}
 
 .button-danger:hover {
   cursor: pointer;
@@ -58,6 +73,11 @@ button:hover {
 }
 
 .button-pale-warning {
+  background-color: rgba(255, 198, 0, 0.2);
+  color: rgba(255, 198, 0, 1);
+  border: rgba(255, 198, 0, 1);
+}
+.button-pale-warning:hover {
   background-color: rgba(255, 198, 0, 0.2);
   color: rgba(255, 198, 0, 1);
   border: rgba(255, 198, 0, 1);
@@ -79,6 +99,11 @@ button:hover {
   color: rgba(10, 208, 10, 1);
   border: rgba(10, 208, 10);
 }
+.button-pale-success:hover {
+  background-color: rgba(10, 208, 10, 0.2);
+  color: rgba(10, 208, 10, 1);
+  border: rgba(10, 208, 10);
+}
 
 .button-success:hover {
   cursor: pointer;
@@ -86,6 +111,11 @@ button:hover {
 }
 
 .button-inverse {
+  background-color: white;
+  color: black;
+  border: black;
+}
+.button-inverse:hover {
   background-color: white;
   color: black;
   border: black;
@@ -100,8 +130,18 @@ button:hover {
   color: #33a0ff;
   border: 1px solid #33a0ff;
 }
+.button-inverse-primary:hover {
+  background-color: white;
+  color: #33a0ff;
+  border: 1px solid #33a0ff;
+}
 
 .button-inverse-danger {
+  background-color: white;
+  color: #ff4858;
+  border: 1px solid #ff4858;
+}
+.button-inverse-danger:hover {
   background-color: white;
   color: #ff4858;
   border: 1px solid #ff4858;
@@ -112,14 +152,28 @@ button:hover {
   color: #0ad00a;
   border: 1px solid #0ad00a;
 }
-
+.button-inverse-success:hover {
+  background-color: white;
+  color: #0ad00a;
+  border: 1px solid #0ad00a;
+}
 .button-inverse-warning {
+  background-color: white;
+  color: #ffc600;
+  border: 1px solid #ffc600;
+}
+.button-inverse-warning:hover {
   background-color: white;
   color: #ffc600;
   border: 1px solid #ffc600;
 }
 
 .button-inverse-default {
+  background-color: white;
+  color: #13161a;
+  border: 1px solid #13161a;
+}
+.button-inverse-default:hover {
   background-color: white;
   color: #13161a;
   border: 1px solid #13161a;

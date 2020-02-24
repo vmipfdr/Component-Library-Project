@@ -5,7 +5,6 @@
   width: 250px;
   font-family: Arial;
   font-size: 12px;
-  height: 70px;
 }
 
 .medium-voucher {
@@ -23,7 +22,11 @@
   width: 100px;
   border: 2px solid #33a0ff;
 }
+.redeem-label:hover {
+  background-color: #33a0ff;
+}
 
 .voucher-input {
-  color: rgb(250, 250, 251);
+  color: black;
+  /* color: rgb(250, 250, 251); */
 }
