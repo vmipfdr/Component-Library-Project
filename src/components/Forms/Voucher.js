@@ -11,7 +11,9 @@ class Voucher extends Component {
   render() {
     return (
       <form className={"voucher-complete"}>
-        <input className={"voucher-input"} label={"Voucher"} />
+        <input className={"voucher-input"} label={"Voucher"}>
+          {this.props.value}
+        </input>
         <button className={"redeem-label"}>Redeem</button>
       </form>
     );

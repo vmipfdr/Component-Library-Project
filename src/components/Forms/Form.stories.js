@@ -4,6 +4,7 @@ import Input from "./Form";
 import Select from "./Select";
 import Counter from "./Counter";
 import Voucher from "./Voucher";
+import Check from "./Check";
 
 storiesOf("Form", module)
   .add("Small Email", () => <Input label="Email" size="small" />)
@@ -23,4 +24,8 @@ storiesOf("Form", module)
   ))
   .add("Counter", () => <Counter />)
   .add("Small Voucher", () => <Voucher label="Voucher Code" size="small" />)
-  .add("Medium Voucher", () => <Voucher label="Voucher Code" size="medium" />);
+  .add("Medium Voucher", () => <Voucher label="Voucher Code" size="medium" />)
+  .add("Uncheck Primary", () => <Check label=" " type="primary" />)
+  .add("Checked Primary", () => <Check label=" " type="primary" />)
+  .add("Uncheck Default", () => <Check label=" " type="default" />)
+  .add("Checked Default", () => <Check label=" " type="default" />);
