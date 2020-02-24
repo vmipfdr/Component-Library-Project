@@ -19,7 +19,11 @@ const Button = props => {
     "pale-danger",
     "pale-success",
     "pale-warning",
-    "pale-default"
+    "pale-default",
+    "cart-text",
+    "favorite-text",
+    "cart",
+    "favorite"
   ];
   if (types.includes(props.type)) {
     // these class lists must take back ticks

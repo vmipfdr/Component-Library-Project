@@ -178,3 +178,74 @@ button:hover {
   color: #13161a;
   border: 1px solid #13161a;
 }
+.button-cart-text {
+  background-image: url("./cart_2.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: left 0.7em top 50%, 0 0;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+}
+.button-cart-text:hover {
+  background-image: url("./cart_2.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: left 0.7em top 50%, 0 0;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+}
+
+.button-favorite-text {
+  background-image: url("./hearts.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: left 0.7em top 50%, 0 0;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+}
+.button-favorite-text:hover {
+  background-image: url("./hearts.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: left 0.7em top 50%, 0 0;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+}
+
+.button-cart {
+  background-image: url("./cart_2.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+  background-position: 50% 50%;
+  height: 2em;
+}
+.button-cart:hover {
+  background-image: url("./cart_2.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+  background-position: 50% 50%;
+  height: 2em;
+}
+
+.button-favorite {
+  background-image: url("./hearts.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+  background-position: 50% 50%;
+  height: 2em;
+}
+.button-favorite:hover {
+  background-image: url("./hearts.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 1.5em auto, 100%;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: rgb(51, 160, 255);
+  background-position: 50% 50%;
+  height: 2em;
+}
