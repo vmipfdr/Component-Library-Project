@@ -1,0 +1,36 @@
+.select-complete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 5px;
+  border: 1px solid rgb(241, 243, 244);
+  width: 150px;
+  margin: 4px 10px;
+}
+
+.select-label {
+  font-family: arial;
+  font-size: 12px;
+  padding: 7px 0px 5px 5px;
+}
+
+.small-select {
+  padding: 4px 10px;
+  height: 24px;
+}
+
+.medium-select {
+  padding: 7px 10px;
+  height: 36px;
+  width: 200px;
+}
+.large-select {
+  padding: 10px 10px;
+  height: 44px;
+  width: 200px;
+}
+.shaded-select {
+  background-color: rgb(250, 250, 251);
+  border: rgb(250, 250, 251);
+}
